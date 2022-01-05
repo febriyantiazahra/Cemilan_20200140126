@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Toko Sayur Barokah</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>== STRUK PEMBAYARAN ==</Div>
+        <hr>
+        <p> Nama Sayur          : <b th:text="${sayur}"></b> </p>
+        <p> Harga Per Kilo      : Rp. <b th:text="${harga}"></b> </p>
+        <p> Jumlah Beli         : <b th:text="${kilo}"></b> </p>   
+        <p> Harga Awal          : Rp. <b th:text="${hitungawal}"></b> </p>
+        <p> Diskon              : <b th:text="${diskon}"></b> % </p>
+        <p> Total Harga Diskon  : Rp. <b th:text="${totalhargadiskon}"></b> </p>
+        <p> Harga Setelah Diskon : Rp. <b th:text="${hitungakhir}"></b> </p>
+        <p> Uang Bayar          : Rp. <b th:text="${totalbyr}"></b> </p>
+        <p> Kembalian           : Rp. <b th:text="${kembali}"></b> </p>
+        </hr>    
+    </body>
+</html>
